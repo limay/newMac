@@ -30,5 +30,7 @@ brew cask install rectangle
 # Install Iterm 2
 brew cask install iterm2
 
+Follow this gist: https://gist.github.com/kevin-smets/8568070
+
 # Install Docker
 brew cask install docker
