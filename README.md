@@ -3,19 +3,25 @@
 # Install brew / brew cask
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
 brew upgrade
+
 brew update
+
 brew tap homebrew/cask
 
 # ssh
 
 ssh-keygen -t rsa -b 4096 -C "$useremail"
+
 ssh-agent -s
+
 ssh-add -K ~/.ssh/id_rsa
 
 nano ~/.ssh/config
 
 add
+
 Host *
  AddKeysToAgent yes
  UseKeychain yes
@@ -41,14 +47,21 @@ brew tap homebrew/cask-fonts
 
 ### programming fonts
 brew install svn //For the fonts
+
 brew cask install font-fira-mono-for-powerline
+
 brew cask install font-fira-code
 
 # Others
 
 brew install python
+
 brew install git
+
 brew install trash
+
 brew cask install notion
+
 brew cask install slack
+
 brew cask install vlc
