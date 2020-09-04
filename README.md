@@ -34,3 +34,21 @@ Follow this gist: https://gist.github.com/kevin-smets/8568070
 
 # Install Docker
 brew cask install docker
+
+# Programming fonts
+
+brew tap homebrew/cask-fonts
+
+### programming fonts
+brew install svn //For the fonts
+brew cask install font-fira-mono-for-powerline
+brew cask install font-fira-code
+
+# Others
+
+brew install python
+brew install git
+brew install trash
+brew cask install notion
+brew cask install slack
+brew cask install vlc
